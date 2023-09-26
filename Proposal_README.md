@@ -2,7 +2,7 @@
 
 ## Luxuray Apparel location in Texas Analysis
 
-We are a luxury apparel company looking to open a location in Texas. We want to decide where would be a good location to maximize the chances for success. We will look at the ecomonic infomation available for all 253 counties within Texas to see if there is a best match.
+We are a luxury apparel company looking to open a location in Texas. We want to decide where would be a good location to maximize the chances for success. We will look at the ecomonic information available for all 253 counties within Texas to see if there is a best match.
 
 We will be accessing the U.S. Bureau of Economic Analysis API to collect information about the per capitol information for all the counties in Texas.
 https://apps.bea.gov/API/signup/
