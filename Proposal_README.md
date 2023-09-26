@@ -1,7 +1,7 @@
 # Project3_Group8
 
 ## Luxuray Apparel location in Texas Analysis
-![alt=Custom hat maker in an upscale shop](https://github.com/sunshinebearlloyd/belly-button-challenge/blob/main/images/hatmaking.jpg)
+![alt=Custom hat maker in an upscale shop](https://github.com/ortizvane09/Project3_Group8/blob/main/images/hatmaking.jpg)
 
 
 We are a luxury apparel company looking to open a location in Texas. We want to decide where would be a good location to maximize the chances for success. We will look at the ecomonic information available for all 253 counties within Texas to see if there is a best match.
