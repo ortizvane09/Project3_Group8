@@ -4,7 +4,7 @@
 ![alt=Custom hat maker in an upscale shop](https://github.com/ortizvane09/Project3_Group8/blob/main/images/hatmaking.jpg)
 *Hat maker shaping a custom hat*
 
-We are a luxury apparel company looking to open a location in Texas. We want to decide where would be a good location to maximize the chances for success. We will look at the ecomonic information available for all 253 counties within Texas to see if there is a best match.
+We are a luxury apparel company looking to open a location in Texas. We want to decide where would be a good location to maximize the chances for success. We will look at the ecomonic information available for all counties in Texas to see if there is a best match.
 According to the U.S. Bureau of Economic Analysis Texas had the 12th highest per capita expenditures for clothing and footwear in 2021 with a value of $1,433 per capita. 
 source: https://apps.bea.gov/itable/index.html?appid=70&stepnum=40&Major_Area=3&State=0&Area=XX&TableId=525&Statistic=10&Year=2021&YearBegin=-1&Year_End=-1&Unit_Of_Measure=Levels&Rank=1&Drill=1&nRange=5
 
