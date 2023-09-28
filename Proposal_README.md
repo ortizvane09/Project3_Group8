@@ -9,7 +9,8 @@ According to the U.S. Bureau of Economic Analysis Texas had the 12th highest per
 source: https://apps.bea.gov/itable/index.html?appid=70&stepnum=40&Major_Area=3&State=0&Area=XX&TableId=525&Statistic=10&Year=2021&YearBegin=-1&Year_End=-1&Unit_Of_Measure=Levels&Rank=1&Drill=1&nRange=5
 
 
-We will do the following:
+The following process will give us a better visability into locations that would be a good fit:
+
 - Access the U.S. Bureau of Economic Analysis to web scrape information about the per capita income for all the counties in Texas.
 https://apps.bea.gov/itable/?ReqID=99&step=1#eyJhcHBpZCI6OTksInN0ZXBzIjpbMSwyOSwyNSwyNiwyNyw0MF0sImRhdGEiOltbIlRhYmxlSWQiLCIyMCJdLFsiTWFqb3JBcmVhS2V5IiwiNCJdLFsiTGluZSIsIjMiXSxbIlN0YXRlIiwiNDgwMDAiXSxbIlVuaXRfb2ZfTWVhc3VyZSIsIkxldmVscyJdLFsiTWFwQ29sb3IiLCJCRUFTdGFuZGFyZCJdLFsiblJhbmdlIiwiNSJdLFsiWWVhciIsIjIwMjEiXSxbIlllYXJCZWdpbiIsIi0xIl0sWyJZZWFyRW5kIiwiLTEiXV19
 
