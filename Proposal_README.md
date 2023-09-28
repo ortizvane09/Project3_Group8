@@ -15,10 +15,13 @@ https://apps.bea.gov/itable/?ReqID=99&step=1#eyJhcHBpZCI6OTksInN0ZXBzIjpbMSwyOSw
 We will web scrape here for the county population data.
 https://apps.bea.gov/itable/?ReqID=99&step=1#eyJhcHBpZCI6OTksInN0ZXBzIjpbMSwyOSwyNSwyNiwyNyw0MF0sImRhdGEiOltbIlRhYmxlSWQiLCIyMCJdLFsiTWFqb3JBcmVhS2V5IiwiNCJdLFsiTGluZSIsIjIiXSxbIlN0YXRlIiwiNDgwMDAiXSxbIlVuaXRfb2ZfTWVhc3VyZSIsIkxldmVscyJdLFsiTWFwQ29sb3IiLCJCRUFTdGFuZGFyZCJdLFsiblJhbmdlIiwiNSJdLFsiWWVhciIsIjIwMjEiXSxbIlllYXJCZWdpbiIsIi0xIl0sWyJZZWFyRW5kIiwiLTEiXV19
 
-We will create a Mongo DB to store this information and use PyMongo to clean the data.
+We will do the following:
+ -- Create a Mongo DB to store this information and use PyMongo to clean the data.
 
-We will then use this data to create useful interatcive visualizations to easily identify the counties that meet our desired criteria.
+ -- Use this data to create useful interatcive visualizations to easily identify the counties that meet our desired criteria.
 
-We will provide a Python Flask powered API so the data can be accessable to anyone interested in this data.
+ -- Chart.js as an additional JavaSript library to create a chart.
+
+ -- Provide a Python Flask powered API so the data can be accessable to anyone interested in this data.
 
 We hope to find which counties have the highest income per capita and a large enough population to support our store. 
