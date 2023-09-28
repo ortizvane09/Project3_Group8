@@ -10,7 +10,7 @@ source: https://apps.bea.gov/itable/index.html?appid=70&stepnum=40&Major_Area=3&
 
 
 We will do the following:
-- Access the U.S. Bureau of Economic Analysis to web scrape information about the per capita information for all the counties in Texas.
+- Access the U.S. Bureau of Economic Analysis to web scrape information about the per capita income for all the counties in Texas.
 https://apps.bea.gov/itable/?ReqID=99&step=1#eyJhcHBpZCI6OTksInN0ZXBzIjpbMSwyOSwyNSwyNiwyNyw0MF0sImRhdGEiOltbIlRhYmxlSWQiLCIyMCJdLFsiTWFqb3JBcmVhS2V5IiwiNCJdLFsiTGluZSIsIjMiXSxbIlN0YXRlIiwiNDgwMDAiXSxbIlVuaXRfb2ZfTWVhc3VyZSIsIkxldmVscyJdLFsiTWFwQ29sb3IiLCJCRUFTdGFuZGFyZCJdLFsiblJhbmdlIiwiNSJdLFsiWWVhciIsIjIwMjEiXSxbIlllYXJCZWdpbiIsIi0xIl0sWyJZZWFyRW5kIiwiLTEiXV19
 
 
