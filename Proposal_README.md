@@ -6,7 +6,7 @@
 ## Luxuray Apparel location in Texas Analysis
 
 We are a luxury apparel company looking to open a location in Texas. We want to decide where would be a good location to maximize the chances for success. We will look at the ecomonic information available for all counties in Texas to see if there is a best match.
-According to the U.S. Bureau of Economic Analysis Texas had the 12th highest per capita expenditures for clothing and footwear in 2021 with a value of $1,433 per capita. 
+According to the U.S. Bureau of Economic Analysis Texas had the 12th highest per capita expenditures for clothing and footwear in 2021 with a value of $1,433 per capita.<br> 
 source: https://apps.bea.gov/itable/index.html?appid=70&stepnum=40&Major_Area=3&State=0&Area=XX&TableId=525&Statistic=10&Year=2021&YearBegin=-1&Year_End=-1&Unit_Of_Measure=Levels&Rank=1&Drill=1&nRange=5
 
 
