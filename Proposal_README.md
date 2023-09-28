@@ -1,8 +1,9 @@
 # Project3_Group8
 
-## Luxuray Apparel location in Texas Analysis
 ![alt=Custom hat maker in an upscale shop](https://github.com/ortizvane09/Project3_Group8/blob/main/images/hatmaking.jpg)
 *Hat maker shaping a custom hat*
+
+## Luxuray Apparel location in Texas Analysis
 
 We are a luxury apparel company looking to open a location in Texas. We want to decide where would be a good location to maximize the chances for success. We will look at the ecomonic information available for all counties in Texas to see if there is a best match.
 According to the U.S. Bureau of Economic Analysis Texas had the 12th highest per capita expenditures for clothing and footwear in 2021 with a value of $1,433 per capita. 
