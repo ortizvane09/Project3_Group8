@@ -26,13 +26,14 @@ let link = "https://data.cityofdenton.com/dataset/0c4fcbc0-6c9a-4c76-98e2-d29f91
 //Income
 //************************************************************
 
+//get the data from the data that was scraped and sort it by income
 let sortedByIncome = countyData.sort((a, b) => parseInt(b.Income) - parseInt(a.Income));
-
+//place sorted data into easy to access arrays (they are all sorted the same and the same length)
 let counties = sortedByIncome.map(object => object.County);
 let coIncome = sortedByIncome.map(object => object.Income);
 let coPopulation = sortedByIncome.map(object => object.Population);
 
-//Set colors of counties based on per capita income (pci)
+//Set colors of counties based on per capita income (pci) in our scrape given the name from geojson file
 function chooseIncColor(name) {
   let countyName = `${name}, TX`;
   for (let i = 0; i < counties.length; i++) {
@@ -49,7 +50,7 @@ function chooseIncColor(name) {
   }
 };
 
-//Create the popup for each county
+//Create the popup for each county using geojson name to find the values in our scrape data
 function popupText(feature, layer) {
   let countyName = `${feature.properties.name}, TX`;
   for (let i = 0; i < counties.length; i++) {
@@ -135,16 +136,15 @@ d3.json(link).then(function(data) {
 //Population
 //************************************************************
 
-
+//get the data from the data that was scraped and sort it by population
 let sortedByPopulation = countyData.sort((a, b) => parseInt(b.Population) - parseInt(a.Population));
-
+//place sorted data into easy to access arrays (they are all sorted the same and the same length)
 counties = sortedByPopulation.map(object => object.County);
 coIncome = sortedByPopulation.map(object => object.Income);
 coPopulation = sortedByPopulation.map(object => object.Population);
 
 
-
-//Set colors per depth of counties based on population
+//Set colors per depth of counties based on population in our scrape given the name from geojson file
 function chooseColor(name) {
   let countyName = `${name}, TX`;
   for (let i = 0; i < counties.length; i++) {
