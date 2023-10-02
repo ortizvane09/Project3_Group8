@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.map-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+
+}
+
+
+#income {
+  height: 700px;
+  /* width: 800px; */
+  /* padding: 20px; */
+  border: 2px solid #999;
+
+
+}
+#population{
+  height: 700px;
+  /* width: 800px; */
+  /* padding: 20px; */
+  border: 2px solid #999;
+
+
+}
+
+.legend {
+  line-height: 18px;
+  width: 90px;
+  background-color:#d9faf9;
+  color: #333;
+}
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  opacity: 1;
+}

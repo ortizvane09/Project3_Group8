@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Income Choropleth</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+
+    <!-- <Leaflet JavaScript code--> 
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+    <!-- D3 library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <!-- Step 2 -->
+    <!-- leaflet-choropleth JavaScript -->
+    <!-- <script type="text/javascript" src="static/js/choropleth.js"></script> -->
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css"> 
+
+  </head>
+  <body>
+
+    <!-- The div where we'll insert our maps -->
+    <div class="map-container ">
+      <div class="map-child income">
+        <h2>Map of Income per Capita for Texas Counties</h2>
+        <div id="income"></div>
+      </div>
+
+      <div class="map-child right">
+        <h2>Map of Population Values for Texas Counties</h2>
+        <div id="population"></div>
+      </div>
+
+    </div>
+
+    <!-- Our JavaScript -->
+    <script type="text/javascript" src="static/js/data.js"></script>
+    <script type="text/javascript" src="Choropleth.js"></script>
+  </body>
+</html>
