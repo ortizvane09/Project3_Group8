@@ -2057,4 +2057,4 @@ let countyData = [
         "Income": "58,653",
         "Population": "2,542,235"
     }
-];
+]
