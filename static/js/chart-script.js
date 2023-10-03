@@ -1,6 +1,6 @@
 //Import the combined_data.json file, and call it data.
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('../json_files/combined_data.json')
+    fetch('../../json_files/combined_data.json')
         .then(response => response.json())
         .then(data => {
             createChart(data);
