@@ -22,7 +22,7 @@
 
 
     <!-- Our CSS -->
-    <link rel="stylesheet" type="text/css" href="static/css/style.css"> 
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"> 
 
   </head>
   <body>
@@ -40,19 +40,19 @@
       </div>
     </div>
 
-    <!-- The div where we'll insert our chart -->
-    <div class = "chart-container">
-      <h2>Population vs Income in Texas Counties Chart</h2>
-      <div class = "chart-child">
-        <canvas id="Project 3" width="600" height="285"></canvas>
-        <script type="text/javascript" src="static/js/data.js"></script>
-        <script type="text/javascript" src="static/js/chart-script.js"></script>
+        <!-- The div where we'll insert our chart -->
+        <div class = "chart-container">
+          <h2>Population vs Income in Texas Counties Chart</h2>
+          <div class = "chart-child">
+            <canvas id="Project 3" width="600" height="285"></canvas>
+            <script type="text/javascript" src="{{url_for('static', filename='js/data.js')}}"></script>
+            <script type="text/javascript" src="{{url_for('static', filename= 'js/chart-script.js')}}"></script>
+          </div>
       </div>
-  </div>
 
     <!-- Our JavaScript -->
-    <script type="text/javascript" src="static/js/data.js"></script>
-    <script type="text/javascript" src="static/js/Choropleth.js"></script>
-
+    <script type="text/javascript" src="{{url_for('static', filename='js/data.js')}}"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='js/Choropleth.js')}}"></script>
+  
   </body>
 </html>

@@ -8,29 +8,19 @@ html {
   height: 100%;
 }
 
-.map-container {
+.grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-
+  grid-gap: 30px;
 }
 
-
-#income {
-  height: 700px;
-  /* width: 800px; */
-  /* padding: 20px; */
-  border: 2px solid #999;
-
-
-}
-#population{
-  height: 700px;
-  /* width: 800px; */
-  /* padding: 20px; */
-  border: 2px solid #999;
-
-
+.chart-container {
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
 }
 
 .legend {
@@ -44,4 +34,23 @@ html {
   height: 18px;
   float: left;
   opacity: 1;
+}
+.chart-child {
+  border: 2px solid #999;
+}
+
+
+
+#income {
+  height: 400px;
+  border: 2px solid #999;
+}
+
+#population{
+  height: 400px;
+  border: 2px solid #999;
+}
+
+.chart-child {
+  border: 2px solid #999;
 }
