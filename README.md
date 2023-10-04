@@ -8,7 +8,7 @@ mongoimport --type json -d Project_3_DB -c Income --drop --jsonArray ./json_file
 
 mongoimport --type json -d Project_3_DB -c Population --drop --jsonArray ./json_files/population_data.json
 
-- To run the Flask API to render our results page open a Git Bash window in the same area as the app.py file. In the Git Bash window enter run the app.py by entering the following code into your Git Bash window.
+- To run the Flask API to render our results page open a Git Bash window in the same area as the app.py file. In the Git Bash window run the app.py by entering the following code into your Git Bash window.
 
 python app.py
 
