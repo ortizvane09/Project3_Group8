@@ -241,6 +241,8 @@ d3.json(link).then(function(data) {
    };
    
    legend.addTo(populationMap);
+
+   
   
   
 

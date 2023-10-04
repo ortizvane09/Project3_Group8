@@ -28,7 +28,7 @@
   <body>
 
     <!-- The div where we'll insert our maps -->
-    <div class="map-container ">
+    <div class="grid-container ">
       <div class="map-child income">
         <h2>Map of Income per Capita for Texas Counties</h2>
         <div id="income"></div>
@@ -40,15 +40,37 @@
       </div>
     </div>
 
-        <!-- The div where we'll insert our chart -->
-        <div class = "chart-container">
-          <h2>Population vs Income in Texas Counties Chart</h2>
-          <div class = "chart-child">
+    <!-- The div where we'll insert our chart and dropdown menu -->
+    <div class = "grid-container">
+        <div class = "chart-child">
+            <h2>Population vs Income in Texas Counties Chart</h2>
             <canvas id="Project 3" width="600" height="285"></canvas>
             <script type="text/javascript" src="{{url_for('static', filename='js/data.js')}}"></script>
             <script type="text/javascript" src="{{url_for('static', filename= 'js/chart-script.js')}}"></script>
-          </div>
-      </div>
+        </div>
+    
+
+        <div class = "menu-child">
+        {% if initial %} 
+        <h2>Choose a County</h2>
+        <form action="{{ url_for('index')}}" method="POST">
+          <SELECT name="county">      
+            {% for c in countyList %}
+                <OPTION value={{c.County}}>{{c.County}}</option>
+            {% endfor %}
+          </SELECT>
+        <button type="submit">Show selected County Data</button>
+        </form>
+        {% endif %}
+        <br><br>
+        {% if initial == False%}       
+          <h2>The Per Capita Income for {{countyList[0]}} is {{countyList[1]}}</h2>
+          <hr><h2>The Population of {{countyList[0]}} is {{countyList[2]}}</h2>
+          <a href="{{ url_for('index')}}" class="button">Select another city</a>
+
+        {% endif %}
+        </div>
+    </div>
 
     <!-- Our JavaScript -->
     <script type="text/javascript" src="{{url_for('static', filename='js/data.js')}}"></script>
