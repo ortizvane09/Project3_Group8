@@ -17,8 +17,12 @@ I will now pass things off to Isaac.
 
 Hi, my name is Isaac Gish and i'll be covering two of our three of visualizations. 
 
-(Slide with images of maps)
+(Slide with Choropleth Code)
 
-Each of these maps were made in javascript using the Choropleth library to show the levels of per capita income, and population in Texas counties. The legned is in the top right, showing green as the highest level, and dark red as the next level. For our analysis of counties, we were looking for those that were green or dark red on both maps. We wanted counties with high population to have a large market for our hats, and those who could pay the fancy price, so we decided to view our data in maps. 
+Each of these maps were made in javascript using the Choropleth library to show the levels of per capita income, and population in Texas counties.
+
+(Slide with maps side by side)
+
+The legned is in the top right, showing green as the highest level, and dark red as the next level. For our analysis of counties, we were looking for those that were green or dark red on both maps. We wanted counties with high population to have a large market for our hats, and those who could pay the fancy price, so we decided to view our data in maps. 
 
 The third way we decided to show our data was through a chart, using a new javascript Library named Chart.JS. I will now pass it to Vanessa to explain this part. 
