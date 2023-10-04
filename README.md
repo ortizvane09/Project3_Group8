@@ -1,6 +1,6 @@
 # Project3_Group8
 
-# Usage:
+## Usage:
 
 - To run the Income_Population_Project_3.ipynb file you will first want to do a mongo import to create the database and it's table. This is done by running the following 2 lines of code separately in your Git Bash window.
 
@@ -15,7 +15,7 @@ python app.py
 The results will have a http address in it, copy this address and paste it into your browser. The page will auto populate from the index.html template in the templates folder and the JavaScript and stylesheet files in the static folder.
 
 
-# Citations and Acknowledgements:
+## Citations and Acknowledgements:
 
 
 County geojson file from: https://data.cityofdenton.com/dataset/texas-counties-polygon
