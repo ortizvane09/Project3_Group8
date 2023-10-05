@@ -9,7 +9,7 @@ Vaneesa Ortiz
 
 
 ## The Fancy Hat Company
-This is the story about The Fancy Hat Company's search for a new location. We wanted a location with clientele that had a high enough income that they would have the disposable income to spend on fancy hats. We chose the state of Texas because according to the Bureau of Economic Analysis Texas had the 12th highest expenditures for clothing and footwear in 2021 at $1,433. We also want to make sure that there is a large enough population to support our store.
+This is the story about The Fancy Hat Company's search for a new location. We wanted a location with clientele that had a high enough income that they would have the disposable income to spend on fancy hats. We chose the state of Texas because according to the Bureau of Economic Analysis, Texas had the 12th highest expenditures for clothing and footwear in 2021 at $1,433. We also want to make sure that there is a large enough population to support our store.
 
 ## Table of Contents
 
@@ -27,16 +27,16 @@ The app.py is the main program to display our website, it is in the root directo
 
 ## Usage:
 
-Run the first part of the Income_Population_Project_3.ipynb in order to gather the data using Splinter and Beautifull Soup. This will write te data to Json files. **Important** Before you run the Pymongo portion of the code you will need to create and populate the database. This is done by running the following 2 lines of code separately in your Git Bash window. Then contiune to run the rest of the code contained in the file.
+Run the first part of the Income_Population_Project_3.ipynb in order to gather the data using Splinter and Beautifull Soup. This will write te data to Json files. Before you run the Pymongo portion of the code you will need to create and populate the database. This is done by running the following 2 lines of code separately in your Git Bash window. Then contiune to run the rest of the code contained in the file.
 
-- mongoimport --type json -d Project_3_DB -c Income --drop --jsonArray ./json_files/income_data.json
+- **mongoimport --type json -d Project_3_DB -c Income --drop --jsonArray ./json_files/income_data.json**
 
-- mongoimport --type json -d Project_3_DB -c Population --drop --jsonArray ./json_files/population_data.json
+- **mongoimport --type json -d Project_3_DB -c Population --drop --jsonArray ./json_files/population_data.json**
 
 
 To run the Flask API to render our results page open a Git Bash window in the same area as the app.py file. In the Git Bash window run the app.py by entering the following code into your Git Bash window.
 
-- python app.py
+- **python app.py**
 
 The results will have a http address in it, copy this address and paste it into your browser. The page will auto-populate from the index.html template in the templates folder and the JavaScript and stylesheet files in the static folder.
 
