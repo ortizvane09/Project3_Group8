@@ -44,15 +44,15 @@ The results will have a http address in it, copy this address and paste it into 
 
 Surprisingly, per capita income was not as strong of an indicator for a good store location as we expected. The counties that had a very high per capita income had very low populations. We also found that counties with high populations had a lower per capita income than we desired. We preferred the locations that were a little more balanced in both areas. Our picks were Denton, Midland, and Montgomery.
 
-We acknowledge that given the time constraints we had to limit the scope of possible considerations. Given an opportunity, I feel a more informed decision could be formed if other things were also researched and considered. Examples of other things to consider are the concentration of similar shops (is the market already saturated), is the product relevant for the market (how many people wear hats). I know that there are many things like this that have not been mentioned.
+We acknowledge that given the time constraints we had to limit the scope of possible considerations. Given an opportunity, we feel a more informed decision could be formed if other things were also researched and considered. Examples of other things to consider are the concentration of similar shops (is the market already saturated), is the product relevant for the market (how many people wear hats). We know that there are many things like this that have not been mentioned.
 
-Overall, I feel this gave us a good starting point for understanding the Texas economy.
+Overall, we feel this gave us a good starting point for understanding the Texas economy.
 
 ## Citations and Acknowledgements:
 
-County geojson file from: https://data.cityofdenton.com/dataset/texas-counties-polygon
-Data gathered from:  https://www.bea.gov/
-NodeJS:  https://nodejs.org/en
+County geojson file from: https://data.cityofdenton.com/dataset/texas-counties-polygon<br>
+Data gathered from:  https://www.bea.gov/<br>
+NodeJS:  https://nodejs.org/en<br>
 ChatJS: https://www.chartjs.org/
 
 
