@@ -1,7 +1,7 @@
-(Intro Sslide with hatmaker)
+(Intro Slide with hatmaker)
 Hello, my name is Shannon Lloyd. I am a member of Group 8 which consists of Manasi Shidhaye, Vanessa Ortiz, Isaac Gish, and myself.
 
-For our story tonight we are a custom hat company looking to open a new location.  We chose Texas because according to the U.S. Bureau of Economic Analysis, Texas had the 12th highest per capita expenditures for clothing and footwear in 2021 with at $1,433 per capita.  To decide on a good location to maximize our chances for success we looked at the per capita income and population values available for all counties in Texas. We expected to look mainly at higher income areas but Texas had some surprises for us which we will show you with our data.
+For our story tonight we are The Fancy Hat company and we looking to open a new location.  We chose Texas because according to the U.S. Bureau of Economic Analysis, Texas had the 12th highest per capita expenditures for clothing and footwear in 2021 with at $1,433 per capita.  To decide on a good location to maximize our chances for success we looked at the per capita income and population values available for all counties in Texas. We expected to look mainly at higher income areas but Texas had some surprises for us which we will show you with our data.
 
 
 (Slide with BEA logo)
