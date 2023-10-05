@@ -26,3 +26,12 @@ Each of these maps were made in javascript using the Choropleth library to show 
 The legned is in the top right, showing green as the highest level, and dark red as the next level. For our analysis of counties, we were looking for those that were green or dark red on both maps. We wanted counties with high population to have a large market for our hats, and those who could pay the fancy price, so we decided to view our data in maps. 
 
 The third way we decided to show our data was through a chart, using a new javascript Library named Chart.JS. I will now pass it to Vanessa to explain this part. 
+
+***WELCOME, EVERYONE. Today, we're excited to share our experience with the Chart.js library in JavaScript. When we began the installation process, we encountered some initial hurdles. To utilize Chart.js, we first needed to set up Node.js on our system.
+Chart.js proved to be a game-changer for us, enabling us to present income and population data in one visualization.
+Our website leverages Flask as a backend framework. The drop-down menu functionality is driven by the server.
+We connect Flask with a MongoDB database to populate the drop-down menu with dynamic data.
+The response upon selecting a city is directly pulled from the MongoDB database.
+The drop-down menu is designed to make data retrieval more intuitive. If users prefer not to search by map, they can easily locate the county on the map.
+In conclusion, integrating Chart.js and Flask has enriched our website's functionality, providing multiple avenues for users to access and interact with data.
+Thank you for your attention. I will pass this onto Manasi.***
