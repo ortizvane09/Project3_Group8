@@ -1,6 +1,6 @@
 Hello, my name is Shannon Lloyd. I am a member of Group 8 which consists of Manasi Shidhaye, Vanessa Ortiz, Isaac Gish, and myself.
 
-For our story tonight we are a luxury apparel company looking to open a new location.  We chose Texas because according to the U.S. Bureau of Economic Analysis Texas had the 12th highest per capita expenditures for clothing and footwear in 2021 with a value of $1,433 per capita.  We want to decide where would be a good location to maximize our chances for success. Looked at the per capita income information and population values available for all counties in Texas. We expected to look mainly for higher income but Texas had some surprises for us which we will show you with our data.
+For our story tonight we are a custom hat company looking to open a new location.  We chose Texas because according to the U.S. Bureau of Economic Analysis Texas had the 12th highest per capita expenditures for clothing and footwear in 2021 with a value of $1,433 per capita.  We want to decide where would be a good location to maximize our chances for success. Looked at the per capita income information and population values available for all counties in Texas. We expected to look mainly for higher income but Texas had some surprises for us which we will show you with our data.
 
 
 (Slide with BEA logo)
